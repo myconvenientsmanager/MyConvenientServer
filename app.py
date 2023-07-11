@@ -1,4 +1,4 @@
-from flask import Flask, redirect, request
+from flask import Flask, redirect, request, render_template
 
 app = Flask(__name__)
 
@@ -11,7 +11,7 @@ def enforce_ssl():
 
 @app.route('/')
 def home():
-    return 'Đây là trang chủ nhé Triple D!'
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run()
