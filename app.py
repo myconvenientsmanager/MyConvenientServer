@@ -1,6 +1,6 @@
 from flask import Flask, redirect, request, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='templates/static')
 
 @app.before_request
 def enforce_ssl():
