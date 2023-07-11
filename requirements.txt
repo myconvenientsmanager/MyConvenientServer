@@ -5,3 +5,5 @@ flask_mqtt
 flask-socketio
 flask-cors
 pytz
+flask-sslify
+
