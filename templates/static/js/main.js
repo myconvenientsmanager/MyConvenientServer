@@ -20,7 +20,7 @@ let clock = setInterval(
 			"Saturday"
 		];
 
-		day.textContent = days[date_now.getDay()];
+		// day.textContent = days[date_now.getDay()];
 
 		middayValue = hr >= 12 ? "PM" : "AM";
 
