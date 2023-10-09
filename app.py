@@ -13,5 +13,9 @@ def enforce_ssl():
 def home():
     return render_template('index.html')
 
+@app.route('/destination')
+def destination():
+    return render_template('destination.html')
+
 if __name__ == '__main__':
     app.run()
