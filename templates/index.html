@@ -1,23 +1,14 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
+	
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>MWM &mdash; Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website" />
-	<meta name="author" content="MwM" />
+	<meta name="description" content="A website by MWM for travelling purposes." />
+	<meta name="author" content="MwM Corporation" />
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<title>MWM &mdash; Home</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	
@@ -51,6 +42,7 @@
 	<![endif]-->
 
 	</head>
+	
 	<body>
 		
 	<div class="gtco-loader"></div>
@@ -87,7 +79,7 @@
 		</div>
 	</nav>
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url(images/img_bg_2.jpg)">
+	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url(static/images/img_bg_2.jpg)">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -174,7 +166,7 @@
 			<div class="row">
 
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="images/img_1.jpg" class="fh5co-card-item image-popup">
+					<a href="static/images/img_1.jpg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
 							<img src="{{ url_for('static', filename='images/img_1.jpg') }}" alt="Image" class="img-responsive">
@@ -187,7 +179,7 @@
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="images/img_2.jpg" class="fh5co-card-item image-popup">
+					<a href="static/images/img_2.jpg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
 							<img src="{{ url_for('static', filename='images/img_2.jpg') }}" alt="Image" class="img-responsive">
@@ -200,7 +192,7 @@
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="images/img_3.jpg" class="fh5co-card-item image-popup">
+					<a href="static/images/img_3.jpg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
 							<img src="{{ url_for('static', filename='images/img_3.jpg') }}" alt="Image" class="img-responsive">
@@ -215,7 +207,7 @@
 
 
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="images/img_4.jpg" class="fh5co-card-item image-popup">
+					<a href="static/images/img_4.jpg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
 							<img src="{{ url_for('static', filename='images/img_4.jpg') }}" alt="Image" class="img-responsive">
@@ -229,7 +221,7 @@
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="images/img_5.jpg" class="fh5co-card-item image-popup">
+					<a href="static/images/img_5.jpg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
 							<img src="{{ url_for('static', filename='images/img_5.jpg') }}" alt="Image" class="img-responsive">
@@ -243,7 +235,7 @@
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="images/img_6.jpg" class="fh5co-card-item image-popup">
+					<a href="static/images/img_6.jpg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
 							<img src="{{ url_for('static', filename='images/img_6.jpg') }}" alt="Image" class="img-responsive">
@@ -303,7 +295,7 @@
 	</div>
 
 
-	<div class="gtco-cover gtco-cover-sm" style="background-image: url(images/img_bg_1.jpg)"  data-stellar-background-ratio="0.5">
+	<div class="gtco-cover gtco-cover-sm" style="background-image: url(static/images/img_bg_1.jpg)"  data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="gtco-container text-center">
 			<div class="display-t">
@@ -490,7 +482,8 @@
 	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
 
 	</body>
-dPage('home.html');
+
+	dPage('home.html');
     </script>
 </body>
 dPage('
@@ -504,5 +497,6 @@ dPage('home.html');
 dPage('home.html');
     </script>
 </body>
+
 </html>
 
